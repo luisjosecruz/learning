@@ -1,0 +1,22 @@
+{
+  "name": "npmjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Luis José Cruz Martínez <luisjosecruzmart@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "date-fns": "^2.25.0",
+    "webpack": "^5.62.1"
+  },
+  "optionalDependencies": {
+    "eslint": "^8.1.0"
+  }
+}

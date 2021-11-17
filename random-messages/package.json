@@ -1,0 +1,28 @@
+{
+  "name": "random-hw",
+  "version": "1.0.0",
+  "description": "This is a project that recreates the famous greeting of developers from all over the world. Receive a greeting (Hello world) in a random language.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "npm"
+  ],
+  "author": "Luis José Cruz Martínez <luisjosecruzmart@gmail.com>",
+  "license": "UNLICENSED",
+  "bin": {
+    "random-hw": "bin/global.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisjosecruz/random-hello-word.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luisjosecruz/random-hello-word/issues"
+  },
+  "homepage": "https://github.com/luisjosecruz/random-hello-word#readme"
+}

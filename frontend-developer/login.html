@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <img class="header__logo" src="https://img.icons8.com/nolan/64/play.png"/>
+    </header>
+    <section class="login">
+        <section class="login__container">
+            <h2>Inicio de sesión</h2>
+            <form action="" class="login__container--form">
+                <label for="email">
+                    <input class="input" id="email" type="text" placeholder="Correo electrónico" autocomplete="off">
+                </label>
+                <label for="password">
+                    <input class="input" id="password" type="password" placeholder="Contraseña" autocomplete="off">
+                </label>
+                <button class="button">Iniciar sesión</button>
+                <div class="login__container--rememberme">
+                    <label for="rememberme">
+                        <input type="checkbox" id="rememberme" value="rememberme"> 
+                        <span>Recuérdame</span>
+                    </label>
+                    <a href="#">Olvidé mi contraseña</a>
+                </div>
+            </form>
+            <section class="login__container-social-media">
+                <div>
+                    <img class="icon" src="https://icon-library.com/images/google-g-icon/google-g-icon-9.jpg" alt="Google">
+                </div>
+                <div>
+                    <img class="icon" src="https://secureservercdn.net/192.169.221.188/7d7.5b1.myftpupload.com/wp-content/uploads/2014/10/Twitter_logo_white.png?time=1597441252" alt="Twitter">
+                </div>
+            </section>
+            <p class="login__container--register">
+                No tienes ninguna cuenta <a href="#">Regístrate</a>
+            </p>
+        </section>
+    </section>
+    <footer class="footer">
+        <a href="#">Términos de uso</a>
+        <a href="#">Declaración de privacidad</a>
+        <a href="#">Centro de ayuda</a>
+    </footer>
+</body>
+</html>
