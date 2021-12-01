@@ -1,0 +1,14 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "author": "Luis José Cruz Martínez <luisjosecruzmart@gmail.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "jest": "^27.4.3"
+  }
+}
